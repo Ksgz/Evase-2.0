@@ -6,7 +6,7 @@ function BottomFooter() {
 
     return (
         <div className="bottom-footer-wrapper">
-            <p className="copyRight animate__animated animate__fadeInUp">© 2021 EVASE | Powered by DeltaNet Systems</p>
+            <p className="copyRight animate__animated animate__fadeInUp">© 2021 EVASE | By browsing on this website, you agree to the site collecting infomation for marketing purpose.</p>
         </div>
     )
 }
