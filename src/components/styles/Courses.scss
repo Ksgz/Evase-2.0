@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap.scss';
+html {
+    scroll-behavior: smooth;
+  }
+.courses-wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+.courses-title {
+    padding: 30px 0 20px 0;
+    font-size: 80px;
+    width: 100%;
+}
+
+.course-block {
+    flex: none;
+    float: left;
+    margin: 20px 0 0 2.5%;
+    width: 30%;
+    height: 300px;
+    border: 1px solid rgb(221, 17, 95);
+    background-color: white;
+}
+
+.course-block h1 {
+    padding: 50px 0 0 0;
+}
+
+.course-block h3 {
+    margin: auto 1px auto 1px;
+}
+
+.course-block button {
+    margin: 50px 0 0 0;
+    text-decoration: none;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border: 1px solid rgb(221, 17, 95);
+    padding: 10px;
+}

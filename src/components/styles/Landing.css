@@ -1,0 +1,92 @@
+.landing-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(5, 14, 44, 0.74), rgba(68, 184, 219, 0.5)), url(../../images/code.jpg);
+    background-size: 100%;
+    user-select: none;
+}
+
+.copy-link-wrapper {
+    background-color: #2b0823;
+    display: inline-flex;
+    padding: 8px 5px 5px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    user-select: none;
+}
+
+.copy-link-wrapper:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.copy-link-wrapper h1 {
+    padding: 0 10px 0 4px;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+.copy-link-wrapper img {
+    padding: 0 0 0 10px;
+    margin: 0 5px 5px 0;
+    object-fit: cover;
+    width: auto;
+    height: 20px;
+    display: inline-block;
+}
+
+.landing-wrapper h2 {
+    background-color: rgba(54, 54, 54, 0.808);
+    color: white;
+    margin: 0;
+    padding: 2px 0 2px 0;
+    font-size: 15px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bold;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.welcome-container {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+}
+
+.typeWrite {
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-top: 13px;
+}
+
+.welcomeTo {
+    font-size: 120px;
+    color: white;
+    margin-top: 20vh;
+}
+
+.ideas {
+    float: right;
+    color: white;
+    font-size: 80px;
+    margin: 6px 0 0 0;
+}
+
+.terminal {
+    width: 20%;
+    height: auto;
+}
